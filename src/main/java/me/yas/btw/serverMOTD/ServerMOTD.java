@@ -1,8 +1,10 @@
 package me.yas.btw.serverMOTD;
+
 import me.yas.btw.serverMOTD.commands.MotdCommand;
 import me.yas.btw.serverMOTD.listeners.PlayerJoin;
 import me.yas.btw.serverMOTD.listeners.ServerPing;
 import org.bukkit.plugin.java.JavaPlugin;
+
 public final class ServerMOTD extends JavaPlugin {
     private static ServerMOTD plugin;
     public IconManager iconManager;

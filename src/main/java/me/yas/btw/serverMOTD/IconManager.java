@@ -2,9 +2,7 @@ package me.yas.btw.serverMOTD;
 
 import org.bukkit.Bukkit;
 import org.bukkit.util.CachedServerIcon;
-
 import java.io.File;
-
 import static me.yas.btw.serverMOTD.ServerMOTD.getplugin;
 
 public class IconManager {

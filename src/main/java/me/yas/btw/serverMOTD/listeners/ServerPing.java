@@ -1,4 +1,5 @@
 package me.yas.btw.serverMOTD.listeners;
+
 import me.yas.btw.serverMOTD.PluginConfig;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

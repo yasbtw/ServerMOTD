@@ -4,7 +4,6 @@ import me.yas.btw.serverMOTD.PluginConfig;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
-
 import static me.yas.btw.serverMOTD.ServerMOTD.getplugin;
 
 public class PlayerJoin implements Listener {
@@ -15,5 +14,4 @@ public class PlayerJoin implements Listener {
             event.getPlayer().sendMessage(pl.joinMessage);
         }
     }
-
 }

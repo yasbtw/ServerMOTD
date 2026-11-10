@@ -2,12 +2,9 @@ package me.yas.btw.serverMOTD;
 
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
-
 import static me.yas.btw.serverMOTD.ServerMOTD.getplugin;
 
-
 public class PluginConfig {
-
     public String line1, line2, joinMessage, Icon;
     public boolean serverIcon, maxPlayersModify, joinEnabled;
     public int maxPlayers;
