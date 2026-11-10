@@ -1,7 +1,10 @@
 # Server Motd Plugin
+Source code of the ServerMOTD plugin
+
+![Example](ss.png)
 
 ### Configuration
-```
+```yaml
 Server-MOTD:
   Line-1: "&8» &8&m-[&r&c&l Server &8&m] &8● &7Your server motd"
   Line-2: "&8» &cGithub &8● &7@yasbtw &7Enjoy your Motd"
@@ -26,4 +29,4 @@ Server-Maximum-Players:
 ```
 
 ### Commands
-**/motd <reload>**
+`/motd reload` Reloads the MOTD Configuration
