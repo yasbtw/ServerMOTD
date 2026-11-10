@@ -1,12 +1,8 @@
 Server-MOTD:
-  Line-1: "&b&l&m-----------[&r&6&l Server &b&l&m]-----------"
-  Line-2: "&e&lWebsite &fwww.spigotmc.org"
+  Line-1: "&8» &8&m-[&r&c&l Server &8&m] &8● &7Your server motd"
+  Line-2: "&8» &cGithub &8● &7@yasbtw &7Enjoy your Motd"
 
 # The motd of the player when they join in.
-
-Tab-Message:
-  Line-1: "igb"
-
 Join-Message:
   Enabled: true
   Messages:

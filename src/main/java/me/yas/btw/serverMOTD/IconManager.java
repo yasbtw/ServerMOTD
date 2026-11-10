@@ -1,7 +1,6 @@
 package me.yas.btw.serverMOTD;
 
 import org.bukkit.Bukkit;
-import org.bukkit.Server;
 import org.bukkit.util.CachedServerIcon;
 
 import java.io.File;
@@ -9,24 +8,18 @@ import java.io.File;
 import static me.yas.btw.serverMOTD.ServerMOTD.getplugin;
 
 public class IconManager {
-    private CachedServerIcon Icon;
-    ServerMOTD plugin = getplugin();
-
+    public CachedServerIcon Icon;
+    PluginConfig pl = getplugin().pluginConfig;
     public void loadIcon(){
-        String path = getplugin().getConfig().getString("Custom-Server-Icon.Image");
+        String path = pl.Icon;
         if (path != null){
             try {
-                File iconFile = new File(plugin.getDataFolder(), path);
+                File iconFile = new File(getplugin().getDataFolder(), path);
                 Icon = Bukkit.loadServerIcon(iconFile);
-                plugin.getLogger().info("works!!");
             } catch (Exception e) {
-                plugin.getLogger().warning("Could not load server icon: " + e.getMessage());
+                getplugin().getLogger().info("couldn't find image");
             }
         }
 
-    }
-
-    public CachedServerIcon getServerIcon(){
-        return Icon;
     }
 }
