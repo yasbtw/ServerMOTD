@@ -1,0 +1,6 @@
+name: ServerMOTD
+version: '${version}'
+
+main: me.yas.btw.serverMOTD.ServerMOTD
+api-version: '1.21'
+load: POSTWORLD
